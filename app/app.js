@@ -5,7 +5,7 @@ var app = express();
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/shoes-app');
+mongoose.connect('mongodb://localhost/shoes-app');
 
 var routes = require('./config/');
 

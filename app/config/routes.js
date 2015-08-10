@@ -24,7 +24,7 @@ var candiesController = require('../controllers/shoes');
   .patch(shoesController.updateShoe);
 
   // DELETE remove specific candy from DB
-  .DELETE(shoesController.removeShoe);
+  .delete(shoesController.removeShoe);
 
 
   module.exports = router;
